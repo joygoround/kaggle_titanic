@@ -18,21 +18,21 @@ practicing basic of ML with kaggle titanic
 ### 4. 모델 간 성능비교 / Predict on test data & Check the result with metrics
     1) KNN 모델, SVC모델, 의사결정나무, XGBOOST, Random Forest
     
-# #Review
+## +Review
 
-## 데이터 전처리의 중요성
+### 데이터 전처리의 중요성
 - 결측치 처리가 관건임 : 중앙값, 평균값, 최빈값, 혹은 ML로 예측 등 적절한 방법을 활용해야 함
 - domain knowledge 의 중요성 : 예를들어 타이타닉 배의 구조를 알고 있어서 cabin의 위치 등을 파악 할 수 있다면 정확도를 높일 수 있을 것임. 
 - feature 균형 맞추기 : 데이터셋에서 feature들 간 스케일 불균형 정규화(Z-score Normalization), 원핫인코딩 등을 활용하면 더 좋은 결과 얻을 수 있을 거라 예상됨
 - 탈락 시킨 다른 feature도 잘 활용할 수 있을 것 같음 : 예를들어 name의 경우 정규식을 이용해 호칭만 추출해서 활용 가능할 것.
 
 
-## ML 모델 셀렉션
+### ML 모델 셀렉션
 - 같은 데이터를 활용해도 모델 별로 정확도가 다름.
 - 여러가지 모델을 테스트해보고 가장 높은 정확도를 보이는 것으로 선택하는 것이 좋음
 - confusion matrix , roc_curve로 모델 별 detail을 확인하기도 가능
 
-## 기타
+### 기타
 - ML의 전반적인 프로세스를 이해할 수 있었음.
 - 통계적 지식의 중요성 : 정확한 분석을 위해 통계적 지식을 적용할 필요성을 느낌.
 - 팀워크와 의사소통의 중요성:
