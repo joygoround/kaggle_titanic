@@ -1,5 +1,5 @@
 # kaggle_titanic
-practicing basic of ML with kaggle titanic 
+practicing basic of ML with kaggle titanic data 
 
 > "경기도 빅데이터 전문가 과정" 프로젝트 -> 타이타닉 생존자 데이터로 ML 실습
 
@@ -7,12 +7,12 @@ practicing basic of ML with kaggle titanic
 
 ### 1. 데이터 준비 및 탐색 / Preparing dataset
 ### 2. 데이터 전처리 방법 & 선택 이유 / Feature engineering & Feature selection 
-    1) 데이터 전처리 후 유의미한 feature 선택하기
-    2) dataset 다시 만들기
+    1) 데이터 전처리 후 유의미한 피쳐 선택하기(Preprocess data and select meaningful feature)
+    2) dataset 다시 만들기 (Reconstruct dataset)
 ### 3. 모델 적용 프로세스 및 결과 / 3개의 기본 모델 선택 (SVC, KNN, 의사결정나무)
-    1) KNN 모델 
-    2) SVC 모델 
-    3) 의사결정나무
+    1) KNN Model
+    2) SVC Model
+    3) Decision Tree
     4) XGBOOST
     5) Random Forest
 ### 4. 모델 간 성능비교 / Predict on test data & Check the result with metrics
@@ -20,7 +20,7 @@ practicing basic of ML with kaggle titanic
     
 ## +Review
 
-### 데이터 전처리의 중요성
+### 데이터 전처리의 중요성 / Importance of pre-processing
 - 결측치 처리가 관건임 : 중앙값, 평균값, 최빈값, 혹은 ML로 예측 등 적절한 방법을 활용해야 함
 - domain knowledge 의 중요성 : 예를들어 타이타닉 배의 구조를 알고 있어서 cabin의 위치 등을 파악 할 수 있다면 정확도를 높일 수 있을 것임. 
 - feature 균형 맞추기 : 데이터셋에서 feature들 간 스케일 불균형 정규화(Z-score Normalization), 원핫인코딩 등을 활용하면 더 좋은 결과 얻을 수 있을 거라 예상됨
